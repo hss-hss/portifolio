@@ -1,0 +1,16 @@
+* {
+    background-color:aqua ;
+}
+
+#inicio{
+    background: saddlebrown;
+    color: cadetblue;
+}
+section{
+    padding-top: 20px;
+    margin: 20px;
+}
+
+a:hover{
+    color:red;
+}
