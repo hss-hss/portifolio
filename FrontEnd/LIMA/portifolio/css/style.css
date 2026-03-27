@@ -1,16 +1,60 @@
-* {
-    background-color:aqua ;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-#inicio{
-    background: saddlebrown;
-    color: cadetblue;
+body{
+    background-color: rgb(44, 94, 83);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: darkblue;
+}
+
+h2{
+    color: cornflowerblue;
+}
+
+nav{
+    background-color: rgb(92, 68, 4);
+    text-align: center;
+    padding: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+nav a:hover{
+    color: rgb(102, 124, 4);
 }
 section{
-    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
     margin: 20px;
+    border-radius:10px;
 }
 
-a:hover{
-    color:red;
+section:hover{
+    border: 4px solid rgb(102, 124, 4)
+}
+
+#Inicio{
+    background-color: lightcoral;
+}
+
+.nome{
+    color: brown;
+}
+
+
+.cabecalho{
+    text-align: center;
+}
+main{
+    margin: auto ;
+    max-width: 1080px;
 }

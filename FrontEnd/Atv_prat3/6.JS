@@ -1,0 +1,1 @@
+console.log("Mandio"<6)
